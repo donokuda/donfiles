@@ -1,4 +1,4 @@
 donfiles
 ========
 
-dotfiles.
+A neverending work in progress.
