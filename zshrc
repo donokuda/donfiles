@@ -9,7 +9,7 @@ promptinit
 
 source ~/.zsh/git-prompt/zshrc.sh
 #
-PROMPT='%n:%~ $(git_super_status)$ '
+PROMPT='%n:%~ $(git_super_status) $ '
 #prompt redhat #use redhat prompt theme until you learn to make your own!
 
 # Command Completion
