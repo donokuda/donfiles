@@ -1,0 +1,1 @@
+../submodules/zsh-git-prompt/gitstatus.py
