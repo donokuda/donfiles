@@ -34,6 +34,7 @@ filetype indent off
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set ruler " show line and column numbers
 
 " Syntax highlighting for specific files
 au! BufNewFile,BufRead Rakefile set filetype=ruby
