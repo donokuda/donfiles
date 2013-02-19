@@ -22,6 +22,7 @@ Bundle 'tomasr/molokai'
 
 Bundle 'kien/ctrlp.vim'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'vim-ruby/vim-ruby'
  
 filetype plugin indent on
 """"""""""""""""""""""""""""""""
@@ -30,11 +31,14 @@ set t_Co=256
 colorscheme molokai
 set number " turn on line numbers
 inoremap jj <Esc> " map jj to escape
-filetype indent off
 set tabstop=2
 set shiftwidth=2
 set expandtab
 set ruler " show line and column numbers
+
+set smartindent
+set autoindent
+filetype indent on
 
 " Syntax highlighting for specific files
 au! BufNewFile,BufRead Rakefile set filetype=ruby
