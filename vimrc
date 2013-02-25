@@ -41,7 +41,6 @@ set autoindent
 filetype indent on
 
 " Syntax highlighting for specific files
-au! BufNewFile,BufRead Rakefile set filetype=ruby
-au! BufNewFile,BufRead Guardfile set filetype=ruby
-au! BufNewFile,BufRead *ru set filetype=ruby
+au! BufNewFile,BufRead Rakefile,Guardfile,*.mirah,*.ru set filetype=ruby
+
 
