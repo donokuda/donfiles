@@ -17,6 +17,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-haml'
 Bundle 'scrooloose/nerdtree'
+Bundle 'Lokaltog/vim-powerline'
 
 Bundle 'tomasr/molokai'
 
@@ -39,6 +40,12 @@ set ruler " show line and column numbers
 set smartindent
 set autoindent
 filetype indent on
+
+" For Powerline
+set nocompatible   " Disable vi-compatibility
+set laststatus=2   " Always show the statusline
+set encoding=utf-8 " Necessary to show Unicode glyphs
+" let g:Powerline_symbols  = 'fancy' " fancy icons
 
 " Syntax highlighting for specific files
 au! BufNewFile,BufRead Rakefile set filetype=ruby
