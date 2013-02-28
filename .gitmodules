@@ -1,3 +1,6 @@
 [submodule "zsh/submodules/zsh-git-prompt"]
 	path = zsh/submodules/zsh-git-prompt
 	url = git://github.com/olivierverdier/zsh-git-prompt.git
+[submodule "tmux/submodules/tmux-powerline"]
+	path = tmux/submodules/tmux-powerline
+	url = git://github.com/erikw/tmux-powerline.git
