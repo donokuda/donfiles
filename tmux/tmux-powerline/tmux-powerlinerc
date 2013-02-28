@@ -80,7 +80,7 @@
 
 # now_playing.sh {
 	# Music player to use. Can be any of {audacious, banshee, cmus, itunes, lastfm, mocp, mpd, mpd_simple, pithos, rdio, rhythmbox, spotify, spotify_wine}.
-	export TMUX_POWERLINE_SEG_NOW_PLAYING_MUSIC_PLAYER=""
+	export TMUX_POWERLINE_SEG_NOW_PLAYING_MUSIC_PLAYER="lastfm"
 	# Maximum output length.
 	export TMUX_POWERLINE_SEG_NOW_PLAYING_MAX_LEN="40"
 	# How to handle too long strings. Can be {trim, roll}.
@@ -96,7 +96,7 @@
 	export TMUX_POWERLINE_SEG_NOW_PLAYING_MPD_SIMPLE_FORMAT="%artist% - %title%"
 	
 	# Username for Last.fm if that music player is used.
-	export TMUX_POWERLINE_SEG_NOW_PLAYING_LASTFM_USERNAME=""
+	export TMUX_POWERLINE_SEG_NOW_PLAYING_LASTFM_USERNAME="vanaerial"
 	# How often in seconds to update the data from last.fm.
 	export TMUX_POWERLINE_SEG_NOW_PLAYING_LASTFM_UPDATE_PERIOD="30"
 # }
@@ -115,7 +115,7 @@
 	# The data provider to use. Currently only "yahoo" is supported.
 	export TMUX_POWERLINE_SEG_WEATHER_DATA_PROVIDER="yahoo"
 	# What unit to use. Can be any of {c,f,k}.
-	export TMUX_POWERLINE_SEG_WEATHER_UNIT="c"
+	export TMUX_POWERLINE_SEG_WEATHER_UNIT="f"
 	# How often to update the weather in seconds.
 	export TMUX_POWERLINE_SEG_WEATHER_UPDATE_PERIOD="600"
 	
