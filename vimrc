@@ -37,6 +37,7 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set ruler " show line and column numbers
+set backspace=indent,eol,start " be able to delete invisible stuff
 
 set smartindent
 set autoindent
