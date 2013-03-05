@@ -18,6 +18,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-haml'
 Bundle 'scrooloose/nerdtree'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'airblade/vim-gitgutter'
 
 Bundle 'tomasr/molokai'
 
