@@ -34,7 +34,6 @@ syntax on
 set t_Co=256 " set terminal colors to 256
 colorscheme molokai
 set number " turn on line numbers
-inoremap jj <Esc> " map jj to escape
 set tabstop=2
 set shiftwidth=2
 set expandtab
