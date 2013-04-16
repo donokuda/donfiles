@@ -28,6 +28,7 @@ Bundle 'vim-ruby/vim-ruby'
  
 filetype plugin indent on
 """"""""""""""""""""""""""""""""
+set hlsearch " turn on search highlighting
 syntax on
 set t_Co=256
 colorscheme molokai
