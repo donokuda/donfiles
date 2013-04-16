@@ -22,6 +22,7 @@ Bundle 'airblade/vim-gitgutter'
 
 Bundle 'tomasr/molokai'
 
+Bundle 'b4winckler/vim-objc'
 Bundle 'kien/ctrlp.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'vim-ruby/vim-ruby'
