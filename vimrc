@@ -1,15 +1,15 @@
 """""""""""""""""""""""""""""""""
 " Vundle stuff. For more info go to:
 " https://github.com/gmarik/vundle
- 
+
 set nocompatible
 filetype off
- 
+
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
- 
+
 Bundle 'gmarik/vundle'
- 
+
 " Insert my bundles here:
 "
 " github bundles here
@@ -26,7 +26,7 @@ Bundle 'b4winckler/vim-objc'
 Bundle 'kien/ctrlp.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'vim-ruby/vim-ruby'
- 
+
 filetype plugin indent on
 """"""""""""""""""""""""""""""""
 set hlsearch " turn on search highlighting
@@ -56,3 +56,7 @@ au! BufNewFile,BufRead Rakefile,Guardfile,*.mirah,*.ru set filetype=ruby
 " map :W and :Q to its lowercase equivalent
 command W w
 command Q q
+
+" Trailing whitespace
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
