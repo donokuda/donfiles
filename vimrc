@@ -19,6 +19,7 @@ Bundle 'tpope/vim-haml'
 Bundle 'scrooloose/nerdtree'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'airblade/vim-gitgutter'
+Bundle 'mileszs/ack.vim'
 
 Bundle 'tomasr/molokai'
 
