@@ -1,7 +1,10 @@
 donfiles
 ========
 
-A neverending work in progress.
+*A neverending work in progress.*
+
+Oh, hi! I didn't see you come in. Here are my dotfiles for tmux, zsh, and vim.
+Feel free to learn from them, or--if you're feeling brave--try to install them.
 
 -------------------------------
 ###Some interesting articles###
