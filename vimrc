@@ -59,5 +59,5 @@ command W w
 command Q q
 
 " Trailing whitespace
-highlight ExtraWhitespace ctermbg=red guibg=red
-match ExtraWhitespace /\s\+$/
+highlight TrailingWhitespace ctermbg=red guibg=red
+autocmd WinEnter * match TrailingWhitespace /\s\+$/
