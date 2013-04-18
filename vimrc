@@ -62,3 +62,16 @@ command Q q
 " Trailing whitespace
 highlight TrailingWhitespace ctermbg=red guibg=red
 autocmd WinEnter * match TrailingWhitespace /\s\+$/
+
+"" Leader Mappings """"""""""""""
+let mapleader = ","
+nnoremap <leader>r :call ToggleRelativeLineNumbers()<cr>
+
+"" Custom Functions """"""""""""""
+function! ToggleRelativeLineNumbers()
+  if(&relativenumber == 1)
+    set number
+  else
+    set relativenumber
+  endif
+endfunc
