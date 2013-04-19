@@ -67,6 +67,7 @@ autocmd WinEnter * match TrailingWhitespace /\s\+$/
 let mapleader = ","
 nnoremap <leader>r :call ToggleRelativeLineNumbers()<cr>
 nnoremap <leader>s :source $MYVIMRC<cr>
+nnoremap <leader>b yy2Pi-webkit-jI-moz-j
 
 "" Custom Functions """"""""""""""
 function! ToggleRelativeLineNumbers()
