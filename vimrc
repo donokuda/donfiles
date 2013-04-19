@@ -68,7 +68,8 @@ let mapleader = ","
 nnoremap <leader>r :call ToggleRelativeLineNumbers()<cr>
 nnoremap <leader>s :source $MYVIMRC<cr>
 nnoremap <leader>b yy2Pi-webkit-jI-moz-j
-
+nnoremap <leader>l Gyyp
+"
 "" Custom Functions """"""""""""""
 function! ToggleRelativeLineNumbers()
   if(&relativenumber == 1)
