@@ -70,8 +70,8 @@ nnoremap <leader>s :source $MYVIMRC<cr>
 " Grab contents from line and paste above/below cursor
 nnoremap <leader>b yy2Pi-webkit-jI-moz-j
 " Grab contents from line and paste above/below cursor
-nnoremap <leader>l Gyyp
-nnoremap <leader>L GyyP
+nnoremap <leader>p Gyyp
+nnoremap <leader>P GyyP
 "
 "" Custom Functions """"""""""""""
 function! ToggleRelativeLineNumbers()
