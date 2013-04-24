@@ -71,8 +71,6 @@ nnoremap <leader>b yy2Pi-webkit-jI-moz-j
 nnoremap <leader>p Gyyp
 nnoremap <leader>P GyyP
 
-" Put 'end' below linebreak
-imap <S-CR> <CR><CR>end<Esc>-cc
 "" Custom Functions """"""""""""""
 function! ToggleRelativeLineNumbers()
   if(&relativenumber == 1)
