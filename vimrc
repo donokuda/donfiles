@@ -10,22 +10,18 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 
-" Insert my bundles here:
-"
-" github bundles here
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-haml'
-Bundle 'scrooloose/nerdtree'
+" Vundle bundles
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'airblade/vim-gitgutter'
-Bundle 'mileszs/ack.vim'
-
-Bundle 'tomasr/molokai'
-
 Bundle 'b4winckler/vim-objc'
-Bundle 'kien/ctrlp.vim'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'kien/ctrlp.vim'
+Bundle 'mileszs/ack.vim'
+Bundle 'scrooloose/nerdtree'
+Bundle 'tomasr/molokai'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-haml'
+Bundle 'tpope/vim-surround'
 Bundle 'vim-ruby/vim-ruby'
 
 filetype plugin indent on
