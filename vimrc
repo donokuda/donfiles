@@ -23,6 +23,7 @@ Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-haml'
 Bundle 'tpope/vim-surround'
+Bundle 'thoughtbot/vim-rspec'
 Bundle 'vim-ruby/vim-ruby'
 
 filetype plugin indent on
@@ -69,6 +70,9 @@ nnoremap <leader>b yy2Pi-webkit-jI-moz-j
 " Grab contents from line and paste above/below cursor
 nnoremap <leader>p Gyyp
 nnoremap <leader>P GyyP
+
+" Put 'end' below linebreak
+imap <S-CR> <CR><CR>end<Esc>-cc
 "" Custom Functions """"""""""""""
 function! ToggleRelativeLineNumbers()
   if(&relativenumber == 1)
