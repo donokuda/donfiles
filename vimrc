@@ -19,6 +19,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'mileszs/ack.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'tomasr/molokai'
+Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-haml'
 Bundle 'tpope/vim-surround'
@@ -68,7 +69,6 @@ nnoremap <leader>b yy2Pi-webkit-jI-moz-j
 " Grab contents from line and paste above/below cursor
 nnoremap <leader>p Gyyp
 nnoremap <leader>P GyyP
-"
 "" Custom Functions """"""""""""""
 function! ToggleRelativeLineNumbers()
   if(&relativenumber == 1)
