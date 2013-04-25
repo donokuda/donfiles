@@ -66,7 +66,7 @@ autocmd WinEnter * match TrailingWhitespace /\s\+$/
 "" Leader Mappings """"""""""""""
 let mapleader = ","
 nnoremap <leader>r :call ToggleRelativeLineNumbers()<cr>
-nnoremap <leader>s :source $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
 " Grab contents from line and paste above/below cursor
 nnoremap <leader>b yy2Pi-webkit-jI-moz-j
 " Grab contents from line and paste above/below cursor
