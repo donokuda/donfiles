@@ -71,6 +71,11 @@ nnoremap <leader>b yy2Pi-webkit-jI-moz-j
 nnoremap <leader>p Gyyp
 nnoremap <leader>P GyyP
 
+" Rspec.vim mappings
+map <leader>t :call RunCurrentSpecFile()<cr>
+map <leader>s :call RunNearestSpec()<cr>
+map <leader>l :call RunLastSpec()<cr>
+
 "" Custom Functions """"""""""""""
 function! ToggleRelativeLineNumbers()
   if(&relativenumber == 1)
