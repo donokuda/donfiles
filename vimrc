@@ -88,6 +88,8 @@ nnoremap <leader>b yy2Pi-webkit-jI-moz-j
 nnoremap <leader>p Gyyp
 nnoremap <leader>P GyyP
 
+nnoremap <leader>ws :%s/\s\+$//e<cr>
+
 " Rspec.vim mappings
 map <leader>t :call RunCurrentSpecFile()<cr>
 map <leader>s :call RunNearestSpec()<cr>
