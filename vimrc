@@ -52,6 +52,7 @@ filetype indent on
 
 " Syntax highlighting for specific files
 au! BufNewFile,BufRead Rakefile,Guardfile,*.mirah,*.ru set filetype=ruby
+au! BufNewFile,BufRead *.md set filetype=markdown
 
 " map :W and :Q to its lowercase equivalent
 command W w
