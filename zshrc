@@ -20,9 +20,9 @@ compinit
 export PATH='/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin'
 
 # RVM
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-export PATH="$PATH:/Users/donokuda/.rvm/gems/ruby-1.9.3-p194/bin:/Users/donokuda/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/donokuda/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/donokuda/.rvm/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/donokuda/.rvm/bin"
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+# PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# export PATH="$PATH:/Users/donokuda/.rvm/gems/ruby-1.9.3-p194/bin:/Users/donokuda/.rvm/gems/ruby-1.9.3-p194@global/bin:/Users/donokuda/.rvm/rubies/ruby-1.9.3-p194/bin:/Users/donokuda/.rvm/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/donokuda/.rvm/bin"
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
 
 # Android SDK ish
 export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
@@ -35,3 +35,7 @@ alias rtun="reattach-to-user-namespace"
 
 # Set to vi mode
 set -o vi
+#
+# For rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
