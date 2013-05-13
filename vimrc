@@ -35,16 +35,27 @@ set laststatus=2   " Always show the statusline
 set encoding=utf-8 " Necessary to show Unicode glyphs
 let g:Powerline_symbols  = 'fancy' " fancy icons
 
-set hlsearch " turn on search highlighting
+" turn on search highlighting
+set hlsearch
 syntax on
-set t_Co=256 " set terminal colors to 256
+
+" set terminal colors to 256
+set t_Co=256
 colorscheme molokai
-set number " turn on line numbers
+
+" turn on line numbers
+set number
+
 set tabstop=2
 set shiftwidth=2
 set expandtab
-set ruler " show line and column numbers
-set backspace=indent,eol,start " be able to delete invisible stuff
+
+" show line and column numbers
+set ruler
+
+" be able to delete invisible stuff
+set backspace=indent,eol,start
+
 " Turn on Spellcheck
 set spell
 
