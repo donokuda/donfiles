@@ -31,7 +31,10 @@ export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
 alias love="/Applications/love.app/Contents/MacOS/love"
 
 # Alias reattach-to-user-namespace
-alias rtun="reattach-to-user-namespace"
+alias ratt="reattach-to-user-namespace"
+
+# Remove all installed gems
+alias removegems="for x in `gem list --no-versions`; do gem uninstall $x -a -x -I; done"
 
 # Set to vi mode
 set -o vi
