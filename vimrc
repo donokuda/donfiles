@@ -26,6 +26,12 @@ Bundle 'tpope/vim-surround'
 Bundle 'thoughtbot/vim-rspec'
 Bundle 'vim-ruby/vim-ruby'
 
+" Bundles required for snipmate
+Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle "tomtom/tlib_vim"
+Bundle 'garbas/vim-snipmate'
+Bundle 'rcyrus/snipmate-snippets-rubymotion'
+
 filetype plugin indent on
 """"""""""""""""""""""""""""""""
 
