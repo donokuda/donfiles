@@ -55,15 +55,8 @@ set number
 set tabstop=2
 set shiftwidth=2
 set expandtab
-
-" show line and column numbers
-set ruler
-
-" be able to delete invisible stuff
-set backspace=indent,eol,start
-
-" Turn on Spellcheck
-set spell
+set ruler " show line and column numbers
+set backspace=indent,eol,start " be able to delete invisible stuff
 
 set smartindent
 set autoindent
