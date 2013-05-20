@@ -25,6 +25,7 @@ Bundle 'tpope/vim-haml'
 Bundle 'tpope/vim-surround'
 Bundle 'thoughtbot/vim-rspec'
 Bundle 'vim-ruby/vim-ruby'
+Bundle 'godlygeek/tabular'
 
 " Bundles required for snipmate
 Bundle "MarcWeber/vim-addon-mw-utils"
