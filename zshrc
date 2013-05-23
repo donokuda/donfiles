@@ -2,6 +2,15 @@
 # [[ $TERM != "screen" ]] && tmux && exit
 alias tmux="TERM=screen-256color-bce tmux"
 
+###########################################
+# ANTIGEN
+
+source ./zsh/submodules/antigen/antigen.zsh
+
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+antigen apply
+###########################################
 
 # zsh prompt customized
 autoload -U promptinit
