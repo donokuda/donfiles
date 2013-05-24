@@ -1,11 +1,12 @@
+PATH_TO_DOTFILES_SOURCE=$HOME/\.donfiles
+#
 # Load tmux on start with correct colors
 # [[ $TERM != "screen" ]] && tmux && exit
 alias tmux="TERM=screen-256color-bce tmux"
 
 ###########################################
 # ANTIGEN
-
-source ./zsh/submodules/antigen/antigen.zsh
+source $PATH_TO_DOTFILES_SOURCE/zsh/submodules/antigen/antigen.zsh
 
 antigen bundle zsh-users/zsh-syntax-highlighting
 
@@ -17,7 +18,7 @@ autoload -U promptinit
 promptinit
 
 # Git Prompt
-source ./zsh/git-prompt/zshrc.sh
+source $PATH_TO_DOTFILES_SOURCE/zsh/git-prompt/zshrc.sh
 #
 PROMPT='%n:%~ $(git_super_status) $ '
 #prompt redhat #use redhat prompt theme until you learn to make your own!
