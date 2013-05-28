@@ -26,6 +26,9 @@ Bundle 'tpope/vim-surround'
 Bundle 'thoughtbot/vim-rspec'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'godlygeek/tabular'
+Bundle 'tpope/vim-fireplace'
+Bundle 'guns/vim-clojure-static'
+Bundle 'kien/rainbow_parentheses.vim'
 
 " Bundles required for snipmate
 Bundle "MarcWeber/vim-addon-mw-utils"
