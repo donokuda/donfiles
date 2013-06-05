@@ -30,6 +30,7 @@ Bundle 'tpope/vim-fireplace'
 Bundle 'tpope/vim-classpath'
 Bundle 'guns/vim-clojure-static'
 Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'elixir-lang/vim-elixir'
 
 " Bundles required for snipmate
 Bundle "MarcWeber/vim-addon-mw-utils"
