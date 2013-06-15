@@ -1,7 +1,7 @@
 ••• donfiles •••
 ================
 
-*My dotfiles*
+*Guys, I also become cool if I do this, right?*
 
 -------------------------------
 
