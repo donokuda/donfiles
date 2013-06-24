@@ -31,6 +31,7 @@ Bundle 'tpope/vim-classpath'
 Bundle 'guns/vim-clojure-static'
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'elixir-lang/vim-elixir'
+Bundle 'suan/vim-instant-markdown'
 
 " Bundles required for snipmate
 Bundle "MarcWeber/vim-addon-mw-utils"
