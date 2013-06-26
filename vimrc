@@ -39,6 +39,8 @@ Bundle "tomtom/tlib_vim"
 Bundle 'garbas/vim-snipmate'
 Bundle 'rcyrus/snipmate-snippets-rubymotion'
 
+let g:instant_markdown_slow = 1
+
 filetype plugin indent on
 """"""""""""""""""""""""""""""""
 
