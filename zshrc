@@ -34,9 +34,6 @@ export PATH='/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/lo
 # Android SDK ish
 export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
 
-# For great LOVE!
-alias love="/Applications/love.app/Contents/MacOS/love"
-
 # Set to vi mode
 set -o vi
 #
