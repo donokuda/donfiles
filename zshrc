@@ -37,9 +37,6 @@ export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
 # For great LOVE!
 alias love="/Applications/love.app/Contents/MacOS/love"
 
-# Alias reattach-to-user-namespace
-alias ratt="reattach-to-user-namespace"
-
 # Set to vi mode
 set -o vi
 #
