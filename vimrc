@@ -32,6 +32,7 @@ Bundle 'guns/vim-clojure-static'
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'elixir-lang/vim-elixir'
 Bundle 'suan/vim-instant-markdown'
+Bundle 'mattn/zencoding-vim'
 
 " Bundles required for snipmate
 Bundle "MarcWeber/vim-addon-mw-utils"
