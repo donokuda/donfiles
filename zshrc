@@ -59,3 +59,6 @@ set -o vi
 # For rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+# For npm
+export PATH="/usr/local/share/npm/bin:$PATH"
