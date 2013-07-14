@@ -9,6 +9,7 @@ alias tmux="TERM=screen-256color-bce tmux"
 source $PATH_TO_DOTFILES_SOURCE/zsh/submodules/antigen/antigen.zsh
 
 antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle robbyrussell/oh-my-zsh plugins/bundler
 
 antigen apply
 ###########################################
