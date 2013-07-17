@@ -41,8 +41,5 @@ done
 
 unset config_files
 
-# Android SDK ish
-export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
-
 # Set to vi mode
 set -o vi
