@@ -46,6 +46,3 @@ export ANDROID_SDK_ROOT=/usr/local/opt/android-sdk
 
 # Set to vi mode
 set -o vi
-#
-# For npm
-export PATH="/usr/local/share/npm/bin:$PATH"
