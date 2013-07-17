@@ -1,6 +1,6 @@
 " Load Vundle
-if filereadable(expand("~/.donfiles/vim/bundle.vim"))
-  source ~/.donfiles/vim/bundle.vim
+if filereadable(expand("~/.donfiles/vim/vundle.vim"))
+  source ~/.donfiles/vim/vundle.vim
 endif
 
 let g:instant_markdown_slow = 1
