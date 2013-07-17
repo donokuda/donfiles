@@ -1,6 +1,3 @@
-# NOTE: Deprecated. Use $ZSH instead!
-export PATH_TO_DOTFILES_SOURCE=$HOME/\.donfiles
-
 # TODO: Check if .dotfiles directory exists if no .donfiles directory
 export ZSH=$HOME/.donfiles
 

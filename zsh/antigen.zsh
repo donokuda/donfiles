@@ -1,5 +1,5 @@
 # Load Antigen...
-source $PATH_TO_DOTFILES_SOURCE/zsh/submodules/antigen/antigen.zsh
+source $ZSH/zsh/submodules/antigen/antigen.zsh
 
 # ...Declare our bundles...
 antigen bundle zsh-users/zsh-syntax-highlighting
