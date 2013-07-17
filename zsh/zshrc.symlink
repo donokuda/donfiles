@@ -41,7 +41,6 @@ done
 
 unset config_files
 
-
 # zsh prompt customized
 autoload -U promptinit
 promptinit
