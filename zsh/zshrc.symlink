@@ -1,8 +1,4 @@
 PATH_TO_DOTFILES_SOURCE=$HOME/\.donfiles
-#
-# Load tmux on start with correct colors
-# [[ $TERM != "screen" ]] && tmux && exit
-alias tmux="TERM=screen-256color-bce tmux"
 
 # zsh prompt customized
 autoload -U promptinit
