@@ -4,16 +4,6 @@ PATH_TO_DOTFILES_SOURCE=$HOME/\.donfiles
 # [[ $TERM != "screen" ]] && tmux && exit
 alias tmux="TERM=screen-256color-bce tmux"
 
-###########################################
-# ANTIGEN
-source $PATH_TO_DOTFILES_SOURCE/zsh/submodules/antigen/antigen.zsh
-
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle robbyrussell/oh-my-zsh plugins/bundler
-
-antigen apply
-###########################################
-
 # zsh prompt customized
 autoload -U promptinit
 promptinit
