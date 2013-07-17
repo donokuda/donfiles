@@ -121,6 +121,7 @@ install_dotfiles () {
   done
 }
 
+# Ripped from achiu/dotfiles
 install_vim () {
       info "installing vim configurations"
   overwrite_all=false
