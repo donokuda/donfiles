@@ -41,17 +41,6 @@ done
 
 unset config_files
 
-# zsh prompt customized
-autoload -U promptinit
-promptinit
-
-# Git Prompt
-source $PATH_TO_DOTFILES_SOURCE/zsh/git-prompt/zshrc.sh
-#
-PROMPT='%n:%~ $(git_super_status) $ '
-#prompt redhat #use redhat prompt theme until you learn to make your own!
-
-
 # recommended by brew doctor
 export PATH='/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin'
 
