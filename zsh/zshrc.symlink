@@ -1,4 +1,46 @@
-PATH_TO_DOTFILES_SOURCE=$HOME/\.donfiles
+# NOTE: Deprecated. Use $ZSH instead!
+export PATH_TO_DOTFILES_SOURCE=$HOME/\.donfiles
+
+# TODO: Check if .dotfiles directory exists if no .donfiles directory
+export ZSH=$HOME/.donfiles
+
+# Project folder that we can `c [tab]` to
+export PROJECTS=~/bluereise
+
+# Use .localrc for SUPER SECRET CRAP no versioned in this public repo
+if [[ -a ~/.localrc ]]
+then
+  source ~/.localrc
+fi
+
+# zsh files assemble!!
+typeset -U config_files
+config_files=($ZSH/**/*.zsh)
+
+# load the path files
+for file in ${(M)config_files:#*/path.zsh}
+do
+  source $file
+done
+
+# load everything but the path and completion files
+for file in ${${config_files:#*/path.zsh}:#*completion.zsh}
+do
+  source $file
+done
+
+# init autocomplete or else functions won't be loaded
+autoload -U compinit
+compinit
+
+# load every completion after autocomplete loads
+for file in ${(M)config_file:#*/completion.zsh}
+do
+  source $file
+done
+
+unset config_files
+
 
 # zsh prompt customized
 autoload -U promptinit
@@ -10,9 +52,6 @@ source $PATH_TO_DOTFILES_SOURCE/zsh/git-prompt/zshrc.sh
 PROMPT='%n:%~ $(git_super_status) $ '
 #prompt redhat #use redhat prompt theme until you learn to make your own!
 
-# Command Completion
-autoload -U compinit
-compinit
 
 # recommended by brew doctor
 export PATH='/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin'
