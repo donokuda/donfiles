@@ -3,10 +3,31 @@
 
 *Guys, I also become cool if I do this, right?*
 
-## Introduction ##
+These are my dotfiles that I use for developing. Previously, I used to manually
+sync my dotfiles first by hand, then by symlinking files from a git repo. While
+the latter worked, it still took time to symlink everything up on a new computer.
 
-These are my dotfiles based off of [Zach Holman's dotfile repo.](https://github.com/holman/dotfiles)
+Let's get started!
+------------------
 
-## Principles ##
+First, clone this repo to your computer (preferably your HOME directory)...
 
-1. Package managers over binary installers.
+```bash
+$ cd ~
+$ git clone https://github.com/donokuda/donfiles.git .donfiles
+$ cd .donfiles
+```
+
+...Run the `bootstrap` script...
+
+```bash
+$ bash script/bootstrap
+```
+
+...Then init those git submodules!
+
+```bash
+$ git submodule init
+$ git submodule update
+```
+
