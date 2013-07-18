@@ -9,7 +9,7 @@ the latter worked, it still took time to symlink everything up on a new computer
 
 The format for these dotfiles are taken from
 **[@holman](https://github.com/holman/dotfiles)** and
-**[@achiu's](https://github.com/achiu/dotfiles) dotfiles.
+**[@achiu's](https://github.com/achiu/dotfiles)** dotfiles.
 
 Let's get started!
 ------------------
