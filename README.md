@@ -7,6 +7,10 @@ These are my dotfiles that I use for developing. Previously, I used to manually
 sync my dotfiles first by hand, then by symlinking files from a git repo. While
 the latter worked, it still took time to symlink everything up on a new computer.
 
+The format for these dotfiles are taken from
+**[@holman](https://github.com/holman/dotfiles)** and
+**[@achiu's](https://github.com/achiu/dotfiles) dotfiles.
+
 Let's get started!
 ------------------
 
