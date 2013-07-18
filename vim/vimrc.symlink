@@ -18,7 +18,15 @@ syntax on
 
 " set terminal colors to 256
 set t_Co=256
-colorscheme molokai
+" If running in GUI mode (ie, MacVim or gVim), then use Dusk for color theme.
+" If not, then fall back to molokai.
+if has("gui_running")
+  " XCODE?
+  colorscheme Dusk
+else
+  " OR SUBLIME?
+  colorscheme molokai
+endif
 
 " turn on line numbers
 set number
