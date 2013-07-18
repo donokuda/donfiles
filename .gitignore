@@ -19,3 +19,5 @@ doc/
 
 *.swp
 git/gitconfig.symlink
+.netrwhist
+vim/bundle
