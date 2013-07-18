@@ -32,4 +32,4 @@ set-option -g status-right "#(~/.donfiles/tmux/submodules/tmux-powerline/powerli
 set-window-option -g window-status-current-format "#[fg=colour235, bg=colour27]⮀#[fg=colour255, bg=colour27] #I ⮁ #W #[fg=colour27, bg=colour235]⮀"
 
 # Reattach to user namespace
-set-option -g default-command "reattach-to-user-namespace -l $SHELL"
+if-shell '"$(which reattach-to-user-namespace)"' 'set-option -g default-command "reattach-to-user-namespace -l $SHELL"'
