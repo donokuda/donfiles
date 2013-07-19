@@ -21,3 +21,5 @@ doc/
 git/gitconfig.symlink
 .netrwhist
 vim/bundle
+zsh/bundle
+

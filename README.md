@@ -54,6 +54,4 @@ There are a few things I still need to do:
 - Do not hardcode the '.donfiles' directory
 - Fix out of the box issues with zsh git-prompt plugin
 - Deprecate as many git submodules as needed (looking at you, git-prompt).
-- Have antigen install inside `~/.donfiles/zsh/antigen` instead of
-  `~/.antigen` then .gitignore the bundles (this is already done with Vundle)
 - Fix `command not found: rbenv` error on computers without rbenv
