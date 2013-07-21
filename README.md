@@ -29,6 +29,13 @@ $ git clone https://github.com/donokuda/donfiles.git ~/.donfiles
 $ cd ~/.donfiles
 ```
 
+(If you haven't yet, let's go and checkout the *experimental* refactor branch)
+
+```bash
+$ git fetch
+$ git checkout --track origin/refactor
+```
+
 ...Run the `bootstrap` script...
 
 ```bash
