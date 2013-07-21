@@ -20,6 +20,8 @@ zsh) and [Vundle](//github.com/gmarik/vundle) (for vim.) Also, I use
 Let's get started!
 ------------------
 
+**Please consider this experimental until the refactor branch is merged into master**
+
 First, clone this repo to your computer (preferably your HOME directory)...
 
 ```bash
@@ -44,7 +46,19 @@ $ git submodule update
 ```bash
 $ vim +BundleInstall +qall
 ```
-When you run `zsh`, Antigen will download and install all zsh plugins.
+Source .zshrc and Antigen will download and install all zsh plugins.
+
+```bash
+$ source ~/.zshrc
+```
+
+If you have any specific configurations that you don't want added to the repo, put it in a `.localrc` file.
+
+```bash
+$ touch ~/.localrc
+$ vim ~/.localrc
+# Add your local specific configurations here
+```
 
 What's next?
 ------------------
