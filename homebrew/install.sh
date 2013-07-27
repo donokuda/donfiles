@@ -13,6 +13,6 @@ then
 fi
 
 # Install homebrew packages
-brew install grc coreutils spark reattach-to-user-namespace
+brew install grc coreutils spark reattach-to-user-namespace hub
 
 exit 0
