@@ -34,6 +34,8 @@ Bundle 'elixir-lang/vim-elixir'
 Bundle 'suan/vim-instant-markdown'
 Bundle 'mattn/zencoding-vim'
 Bundle 'jaapie/vim-colours-dusk'
+Bundle 'rizzatti/funcoo.vim'
+Bundle 'rizzatti/dash.vim'
 
 " Bundles required for snipmate
 Bundle "MarcWeber/vim-addon-mw-utils"
