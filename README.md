@@ -75,4 +75,3 @@ There are a few things I still need to do:
 - Do not hardcode the '.donfiles' directory
 - Fix out of the box issues with zsh git-prompt plugin
 - Deprecate as many git submodules as needed (looking at you, git-prompt).
-- Fix `command not found: rbenv` error on computers without rbenv
