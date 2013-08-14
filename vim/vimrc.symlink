@@ -98,6 +98,10 @@ nnoremap <leader>ws :%s/\s\+$//e<cr>
 map <leader>t :call RunCurrentSpecFile()<cr>
 map <leader>s :call RunNearestSpec()<cr>
 map <leader>l :call RunLastSpec()<cr>
+map <leader>a :call RunAllSpecs()<cr>
+" Send rspec commands to tmux pane
+" http://robots.thoughtbot.com/post/55273519322/running-specs-from-vim-sent-to-tmux-via-tslime
+let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
 
 "" Custom Functions """"""""""""""
 function! ToggleRelativeLineNumbers()

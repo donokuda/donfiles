@@ -37,6 +37,7 @@ Bundle 'jaapie/vim-colours-dusk'
 Bundle 'rizzatti/funcoo.vim'
 Bundle 'rizzatti/dash.vim'
 Bundle 'slim-template/vim-slim'
+Bundle 'jgdavey/tslime.vim'
 
 " Bundles required for snipmate
 Bundle "MarcWeber/vim-addon-mw-utils"
