@@ -1,5 +1,4 @@
-if [[ -x rbenv ]]
-then
+if (( $+commands[rbenv] )); then
   # Put rbenv in our PATH
   export PATH="$HOME/.rbenv/bin:$PATH"
   # and init
