@@ -38,6 +38,7 @@ Bundle 'rizzatti/funcoo.vim'
 Bundle 'rizzatti/dash.vim'
 Bundle 'slim-template/vim-slim'
 Bundle 'jgdavey/tslime.vim'
+Bundle 'christoomey/vim-tmux-navigator'
 
 " Bundles required for snipmate
 Bundle "MarcWeber/vim-addon-mw-utils"
