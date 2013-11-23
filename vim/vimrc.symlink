@@ -42,7 +42,7 @@ set autoindent
 filetype indent on
 
 " Syntax highlighting for specific files
-au! BufNewFile,BufRead Rakefile,Guardfile,*.mirah,*.ru set syn=ruby
+au! BufNewFile,BufRead Rakefile,Guardfile,*.mirah,*.ru,*.pp set syn=ruby
 au! BufNewFile,BufRead *.md set syn=markdown
 au! BufNewFile,BufRead *.rg set syn=clojure
 
