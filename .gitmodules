@@ -1,15 +1,6 @@
-[submodule "zsh/submodules/zsh-git-prompt"]
-	path = zsh/submodules/zsh-git-prompt
-	url = git://github.com/olivierverdier/zsh-git-prompt.git
-[submodule "tmux/submodules/tmux-powerline"]
-	path = tmux/submodules/tmux-powerline
-	url = git://github.com/erikw/tmux-powerline.git
 [submodule "zsh/submodules/antigen"]
 	path = zsh/submodules/antigen
 	url = https://github.com/zsh-users/antigen.git
-[submodule "vim/submodules/vundle"]
-	path = vim/submodules/vundle
-	url = https://github.com/gmarik/vundle.git
 [submodule "vim/bundle/vundle"]
 	path = vim/bundle/vundle
 	url = https://github.com/gmarik/vundle.git
