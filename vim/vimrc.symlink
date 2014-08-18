@@ -39,6 +39,7 @@ filetype indent on
 au! BufNewFile,BufRead Rakefile,Guardfile,*.mirah,*.ru,*.pp set syn=ruby
 au! BufNewFile,BufRead *.md set syn=markdown
 au! BufNewFile,BufRead *.rg set syn=clojure
+au! BufNewFile,BufRead *.hbs,*.handlebars set syn=html
 
 " map :W and :Q to its lowercase equivalent
 command W w
