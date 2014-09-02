@@ -40,6 +40,7 @@ Bundle 'slim-template/vim-slim'
 Bundle 'jgdavey/tslime.vim'
 Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'digitaltoad/vim-jade'
+Bundle 'pbrisbin/vim-mkdir'
 
 " Bundles required for snipmate
 Bundle "MarcWeber/vim-addon-mw-utils"
