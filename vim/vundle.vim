@@ -41,6 +41,7 @@ Bundle 'jgdavey/tslime.vim'
 Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'digitaltoad/vim-jade'
 Bundle 'pbrisbin/vim-mkdir'
+Bundle 'heartsentwined/vim-emblem'
 
 " Bundles required for snipmate
 Bundle "MarcWeber/vim-addon-mw-utils"
