@@ -4,3 +4,5 @@ if (( $+commands[rbenv] )); then
   # and init
   eval "$(rbenv init -)"
 fi
+
+export CC=/usr/bin/gcc # Set compiler to clang
