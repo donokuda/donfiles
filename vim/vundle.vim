@@ -42,6 +42,7 @@ Bundle 'digitaltoad/vim-jade'
 Bundle 'pbrisbin/vim-mkdir'
 Bundle 'heartsentwined/vim-emblem'
 Bundle 'danro/rename.vim'
+Bundle 'tpope/vim-commentary'
 
 " Bundles required for snipmate
 Bundle "MarcWeber/vim-addon-mw-utils"
