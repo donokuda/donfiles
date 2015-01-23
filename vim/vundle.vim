@@ -43,6 +43,7 @@ Bundle 'pbrisbin/vim-mkdir'
 Bundle 'heartsentwined/vim-emblem'
 Bundle 'danro/rename.vim'
 Bundle 'tpope/vim-commentary'
+Bundle 'Keithbsmiley/swift.vim'
 
 " Bundles required for snipmate
 Bundle "MarcWeber/vim-addon-mw-utils"
