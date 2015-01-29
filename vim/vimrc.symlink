@@ -98,6 +98,8 @@ map <leader>a :call RunAllSpecs()<cr>
 " http://robots.thoughtbot.com/post/55273519322/running-specs-from-vim-sent-to-tmux-via-tslime
 let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
 
+map <leader>k :Dash<cr>
+
 "" Custom Functions """"""""""""""
 function! ToggleRelativeLineNumbers()
   if(&relativenumber == 1)
