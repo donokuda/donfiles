@@ -79,7 +79,7 @@ au Syntax * RainbowParenthesesLoadBraces
 
 "" Leader Mappings """"""""""""""
 let mapleader = ","
-nnoremap <leader>r :call ToggleRelativeLineNumbers()<cr>
+nnoremap <leader>r :set relativenumber!<cr>
 nnoremap <leader>sv :source $MYVIMRC<cr>
 " Grab contents from line and paste above/below cursor
 nnoremap <leader>b yy2Pi-webkit-jI-moz-j
@@ -99,12 +99,3 @@ map <leader>a :call RunAllSpecs()<cr>
 let g:rspec_command = 'call Send_to_Tmux("rspec {spec}\n")'
 
 map <leader>k :Dash<cr>
-
-"" Custom Functions """"""""""""""
-function! ToggleRelativeLineNumbers()
-  if(&relativenumber == 1)
-    set number
-  else
-    set relativenumber
-  endif
-endfunc
