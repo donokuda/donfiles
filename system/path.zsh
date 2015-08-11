@@ -1,2 +1,3 @@
 # Get Postgres.app app workin'
-PATH="$HOME/Applications/Postgres.app/Contents/MacOS/bin:/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
+PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
+PATH=$PATH:/opt/homebrew-cask/Caskroom/postgres/9.4.4.0/Postgres.app/Contents/Versions/9.4/bin
