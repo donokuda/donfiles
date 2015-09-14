@@ -45,6 +45,7 @@ Bundle 'danro/rename.vim'
 Bundle 'tpope/vim-commentary'
 Bundle 'Keithbsmiley/swift.vim'
 Bundle 'justinmk/vim-syntax-extra'
+Bundle 'fatih/vim-go'
 
 " Bundles required for snipmate
 Bundle "MarcWeber/vim-addon-mw-utils"
