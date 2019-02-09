@@ -41,6 +41,7 @@ endif
 "
 " Add plugs here
 Plug 'sickill/vim-monokai' " Colorscheme
+Plug 'leafgarland/typescript-vim' " TypeScript support
 "
 " Initialize plugin system
 call plug#end()
