@@ -40,7 +40,7 @@ if !has('nvim')
 endif
 "
 " Add plugs here
-Plug 'sickill/vim-monokai'
+Plug 'sickill/vim-monokai' " Colorscheme
 "
 " Initialize plugin system
 call plug#end()
