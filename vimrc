@@ -46,6 +46,11 @@ Plug 'leafgarland/typescript-vim' " TypeScript support
 " Initialize plugin system
 call plug#end()
 
+
+" +-----------------------+
+" |    Customize here!    |
+" +-----------------------+
+
 " Colorscheme
 syntax enable
 colorscheme monokai
