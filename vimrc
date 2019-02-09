@@ -54,3 +54,47 @@ call plug#end()
 " Colorscheme
 syntax enable
 colorscheme monokai
+
+" turn on search highlighting
+set hlsearch
+syntax on
+
+" set terminal colors to 256
+set t_Co=256
+
+" turn on line numbers
+set number
+
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set ruler " show line and column numbers
+set backspace=indent,eol,start " be able to delete invisible stuff
+
+set smartindent
+set autoindent
+filetype indent on
+
+" Syntax highlighting for specific files
+au! BufNewFile,BufRead Rakefile,Guardfile,*.mirah,*.ru,*.pp set syn=ruby
+au! BufNewFile,BufRead *.md set syn=markdown
+au! BufNewFile,BufRead *.rg set syn=clojure
+au! BufNewFile,BufRead *.hbs,*.handlebars set syn=html
+au! BufNewFile,BufRead *.emblem set syn=slim
+
+" map :W and :Q to its lowercase equivalent
+command W w
+command Q q
+
+" Trailing whitespace
+highlight TrailingWhitespace ctermbg=red guibg=red
+autocmd WinEnter * match TrailingWhitespace /\s\+$/
+
+" Set leader key to comma
+let mapleader = ","
+
+" Show relative numbers (for better jumping experience in vim)
+nnoremap <leader>r :set relativenumber!<cr>
+"
+" Load changes from vimrc without having to restart vim
+nnoremap <leader>sv :source $MYVIMRC<cr>
