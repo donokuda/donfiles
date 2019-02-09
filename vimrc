@@ -1,3 +1,9 @@
+" Quick note for symlinking vimrc's: 
+"
+" In order to symlink vimrc files, you might provide the absolute path.
+" (See https://superuser.com/questions/422473/vim-doesnt-load-symlinked-vimrc)
+"   $ ln -s ~/code/src/github.com/donokuda/donfiles/vimrc ~/.vimrc
+"
 " +----------------------+
 " |    Set up plugins    |
 " +----------------------+
