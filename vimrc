@@ -95,6 +95,9 @@ let mapleader = ","
 
 " Show relative numbers (for better jumping experience in vim)
 nnoremap <leader>r :set relativenumber!<cr>
-"
+ 
 " Load changes from vimrc without having to restart vim
 nnoremap <leader>sv :source $MYVIMRC<cr>
+
+" Toggle line wrapping
+nnoremap <leader>w :set wrap!<cr>
