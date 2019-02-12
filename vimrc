@@ -17,7 +17,7 @@ if has('nvim')
   if empty(glob('~/.vim/autoload/plug.vim'))
     silent !curl -flo ~/.vim/autoload/plug.vim --create-dirs
       \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    autocmd vimenter * pluginstall --sync | source $myvimrc
+    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
   endif
 
   " specify a directory for plugins
@@ -31,7 +31,7 @@ if !has('nvim')
   if empty(glob('~/.vim/autoload/plug.vim'))
     silent !curl -flo ~/.vim/autoload/plug.vim --create-dirs
       \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    autocmd vimenter * pluginstall --sync | source $myvimrc
+    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
   endif
 
   " specify a directory for plugins
@@ -45,7 +45,6 @@ Plug 'leafgarland/typescript-vim' " TypeScript support
 "
 " Initialize plugin system
 call plug#end()
-
 
 " +-----------------------+
 " |    Customize here!    |
