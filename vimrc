@@ -14,16 +14,16 @@
 "   https://neovim.io/doc/user/nvim.html#nvim-from-vim
 " 
 if has('nvim')
-  if empty(glob('~/.vim/autoload/plug.vim'))
-    silent !curl -flo ~/.vim/autoload/plug.vim --create-dirs
+  if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
+    silent !curl -flo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs
       \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    autocmd vimenter * pluginstall --sync | source $myvimrc
+    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
   endif
 
   " specify a directory for plugins
   " - For Neovim: ~/.local/share/nvim/plugged
   " - avoid using standard vim directory names like 'plugin'
-  call plug#begin('~/.vim/plugged')
+  call plug#begin('~/.local/share/nvim/plugged')
 endif
 "
 " Install vim-plug for vim classic
@@ -31,7 +31,7 @@ if !has('nvim')
   if empty(glob('~/.vim/autoload/plug.vim'))
     silent !curl -flo ~/.vim/autoload/plug.vim --create-dirs
       \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-    autocmd vimenter * pluginstall --sync | source $myvimrc
+    autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
   endif
 
   " specify a directory for plugins
@@ -45,7 +45,6 @@ Plug 'leafgarland/typescript-vim' " TypeScript support
 "
 " Initialize plugin system
 call plug#end()
-
 
 " +-----------------------+
 " |    Customize here!    |
