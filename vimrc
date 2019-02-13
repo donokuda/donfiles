@@ -100,3 +100,6 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 
 " Toggle line wrapping
 nnoremap <leader>w :set wrap!<cr>
+
+" Don't linebreak in the middle of a word
+set linebreak
