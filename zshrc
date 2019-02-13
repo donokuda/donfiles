@@ -3,8 +3,8 @@ export PATH="$HOME/.bin:$PATH"
 # recommended by brew doctor
 export PATH="/usr/local/bin:$PATH"
 
-if [[ -e /Users/donokuda/.asdf/asdf.sh ]]; then
-  source /Users/donokuda/.asdf/asdf.sh
+if [[ -e $HOME/.asdf/asdf.sh ]]; then
+  source $HOME/.asdf/asdf.sh
 else
   echo "asdf not found"
 fi
