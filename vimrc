@@ -63,14 +63,15 @@ else
   Plug 'roxma/nvim-yarp'
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
-
-let g:deoplete#enable_at_startup = 1
 " ----------------------------
 "
 " Initialize plugin system
 call plug#end()
 
+" ENABLE ALL THE THINGS!!!
+let g:deoplete#enable_at_startup = 1
 let g:airline#extensions#tabline#enabled = 1
+
 " +-----------------------+
 " |    Customize here!    |
 " +-----------------------+
