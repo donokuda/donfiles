@@ -69,8 +69,8 @@ endif
 call plug#end()
 
 " ENABLE ALL THE THINGS!!!
-let g:deoplete#enable_at_startup = 1
-let g:airline#extensions#tabline#enabled = 1
+let g:deoplete#enable_at_startup = 1 " Enable autocomplete
+let g:airline#extensions#tabline#enabled = 1 " Enable status bar
 
 " +-----------------------+
 " |    Customize here!    |
