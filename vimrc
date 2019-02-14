@@ -46,6 +46,7 @@ Plug 'scrooloose/nerdtree' " Atom/Sublime-like file tree
 Plug 'Xuyuanp/nerdtree-git-plugin' " git status markers for NERDTree
 Plug 'airblade/vim-gitgutter' " git status markers in gutter
 Plug 'HerringtonDarkholme/yats.vim' " Yet another TypeScript Syntax Highlighting
+Plug 'tpope/vim-fugitive' " Git intergration
 
 "
 " Async completion for NeoVim via deoplete
