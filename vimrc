@@ -42,6 +42,9 @@ endif
 " Add plugs here
 Plug 'sickill/vim-monokai' " Colorscheme
 Plug 'leafgarland/typescript-vim' " TypeScript support
+Plug 'ctrlpvim/ctrlp.vim' " Easy file browsing via Ctrl-P
+Plug 'scrooloose/nerdtree' " Atom/Sublime-like file tree
+Plug 'Xuyuanp/nerdtree-git-plugin' " git status markers for NERDTree
 "
 " Initialize plugin system
 call plug#end()
@@ -103,3 +106,6 @@ nnoremap <leader>w :set wrap!<cr>
 
 " Don't linebreak in the middle of a word
 set linebreak
+
+" Toggle NERDTree
+nnoremap <C-n> :NERDTreeToggle<CR>
