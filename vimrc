@@ -24,10 +24,8 @@ if has('nvim')
   " - For Neovim: ~/.local/share/nvim/plugged
   " - avoid using standard vim directory names like 'plugin'
   call plug#begin('~/.local/share/nvim/plugged')
-endif
-"
-" Install vim-plug for vim classic
-if !has('nvim')
+else
+  " Install vim-plug for vim classic
   if empty(glob('~/.vim/autoload/plug.vim'))
     silent !curl -flo ~/.vim/autoload/plug.vim --create-dirs
       \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
