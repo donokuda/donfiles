@@ -132,3 +132,6 @@ set linebreak
 
 " Toggle NERDTree
 nnoremap <C-n> :NERDTreeToggle<CR>
+
+" Faster update time (for vim git gutter)
+set updatetime=100
