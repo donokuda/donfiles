@@ -1,4 +1,4 @@
-" Quick note for symlinking vimrc's: 
+" Quick note for symlinking vimrc's:
 "
 " In order to symlink vimrc files, you might provide the absolute path.
 " (See https://superuser.com/questions/422473/vim-doesnt-load-symlinked-vimrc)
@@ -12,7 +12,7 @@
 "
 " Install vim-plug for neovim
 "   https://neovim.io/doc/user/nvim.html#nvim-from-vim
-" 
+"
 if has('nvim')
   if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
     silent !curl -flo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs
@@ -98,7 +98,7 @@ let mapleader = ","
 
 " Show relative numbers (for better jumping experience in vim)
 nnoremap <leader>r :set relativenumber!<cr>
- 
+
 " Load changes from vimrc without having to restart vim
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
