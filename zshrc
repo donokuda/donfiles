@@ -3,21 +3,24 @@ export PATH="$HOME/.bin:$PATH"
 # recommended by brew doctor
 export PATH="/usr/local/bin:$PATH"
 
-if [[ -e $HOME/.asdf/asdf.sh ]]; then
-  source $HOME/.asdf/asdf.sh
+
+ASDFSH="$HOME/.asdf/asdf.sh"
+if [[ -e $ASDFSH ]]; then
+  source $ASDFSH
 else
-  echo "asdf not found"
+  echo "Not found: $ASDFSH"
 fi
 
 # zsh plugins (via antigen)
-if [[ -e /usr/local/share/antigen/antigen.zsh ]]; then
-  source /usr/local/share/antigen/antigen.zsh
+ANTIGENPATH="/usr/local/share/antigen/antigen.zsh"
+if [[ -e $ANTIGENPATH ]]; then
+  source $ANTIGENPATH
 
   antigen use oh-my-zsh
 
   antigen apply
 else
-  echo "antigen not found"
+  echo "Not found: $ANTIGENPATH"
 fi
 
 
