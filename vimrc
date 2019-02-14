@@ -45,6 +45,7 @@ Plug 'leafgarland/typescript-vim' " TypeScript support
 Plug 'ctrlpvim/ctrlp.vim' " Easy file browsing via Ctrl-P
 Plug 'scrooloose/nerdtree' " Atom/Sublime-like file tree
 Plug 'Xuyuanp/nerdtree-git-plugin' " git status markers for NERDTree
+Plug 'airblade/vim-gitgutter' " git status markers in gutter
 "
 " Initialize plugin system
 call plug#end()
