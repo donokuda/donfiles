@@ -41,20 +41,27 @@ endif
 " Add plugs here
 " ----------------------------
 Plug 'sickill/vim-monokai' " Colorscheme
-Plug 'leafgarland/typescript-vim' " TypeScript support
 Plug 'ctrlpvim/ctrlp.vim' " Easy file browsing via Ctrl-P
 Plug 'scrooloose/nerdtree' " Atom/Sublime-like file tree
 Plug 'Xuyuanp/nerdtree-git-plugin' " git status markers for NERDTree
 Plug 'airblade/vim-gitgutter' " git status markers in gutter
+Plug 'HerringtonDarkholme/yats.vim' " Yet another TypeScript Syntax Highlighting
+
 "
 " Async completion for NeoVim via deoplete
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+  Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
+  " For async completion
+  Plug 'Shougo/deoplete.nvim'
+  " For Denite features
+  Plug 'Shougo/denite.nvim'
 else
   Plug 'Shougo/deoplete.nvim'
   Plug 'roxma/nvim-yarp'
   Plug 'roxma/vim-hug-neovim-rpc'
 endif
+
 let g:deoplete#enable_at_startup = 1
 " ----------------------------
 "
