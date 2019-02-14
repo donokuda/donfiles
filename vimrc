@@ -47,6 +47,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin' " git status markers for NERDTree
 Plug 'airblade/vim-gitgutter' " git status markers in gutter
 Plug 'HerringtonDarkholme/yats.vim' " Yet another TypeScript Syntax Highlighting
 Plug 'tpope/vim-fugitive' " Git intergration
+Plug 'vim-airline/vim-airline' " v fancy status bar
 
 "
 " Async completion for NeoVim via deoplete
@@ -69,6 +70,7 @@ let g:deoplete#enable_at_startup = 1
 " Initialize plugin system
 call plug#end()
 
+let g:airline#extensions#tabline#enabled = 1
 " +-----------------------+
 " |    Customize here!    |
 " +-----------------------+
