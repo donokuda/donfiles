@@ -3,6 +3,9 @@ export PATH="$HOME/.bin:$PATH"
 # recommended by brew doctor
 export PATH="/usr/local/bin:$PATH"
 
+# Get nodenv working
+# TODO: Deprecate nodenv in work computer and use `asdf` instead
+export PATH="$HOME/.nodenv/shims:$PATH"
 
 ASDFSH="$HOME/.asdf/asdf.sh"
 if [[ -e $ASDFSH ]]; then
