@@ -135,3 +135,7 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 
 " Faster update time (for vim git gutter)
 set updatetime=100
+
+"Spell check
+set spelllang=en
+set spell
