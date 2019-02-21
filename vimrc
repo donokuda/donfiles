@@ -138,4 +138,4 @@ set updatetime=100
 
 "Spell check
 set spelllang=en
-set spell
+au! BufNewFile,BufRead *.md,*.txt set spell
