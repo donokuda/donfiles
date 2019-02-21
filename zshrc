@@ -14,17 +14,11 @@ else
   echo "Not found: $ASDFSH"
 fi
 
-# zsh plugins (via antigen)
-ANTIGENPATH="/usr/local/share/antigen/antigen.zsh"
-if [[ -e $ANTIGENPATH ]]; then
-  source $ANTIGENPATH
+# zsh plugins (via antibody)
+source <(antibody init)
 
-  antigen use oh-my-zsh
-
-  antigen apply
-else
-  echo "Not found: $ANTIGENPATH"
-fi
+antibody bundle robbyrussell/oh-my-zsh
+antibody bundle denysdovhan/spaceship-prompt
 
 # Check if config file for Neovim exists
 NVIMRC="$HOME/.config/nvim/init.vim"
