@@ -127,6 +127,9 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 " Toggle line wrapping
 nnoremap <leader>w :set wrap!<cr>
 
+" Open current document into its own tab (pseudo-fullcsreen)
+nnoremap <leader>T :tabnew %<cr>
+
 " Don't linebreak in the middle of a word
 set linebreak
 
