@@ -26,3 +26,4 @@ if [[ ! -e $NVIMRC ]]; then
   echo "Cannot find a neovim config file. You're gonna have a bad time :("
   echo "  https://neovim.io/doc/user/nvim.html#nvim-from-vim"
 fi
+export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
