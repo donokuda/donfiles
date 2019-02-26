@@ -18,6 +18,7 @@ fi
 source <(antibody init)
 
 antibody bundle robbyrussell/oh-my-zsh
+antibody bundle robbyrussell/oh-my-zsh path:plugins/jsontools 
 antibody bundle denysdovhan/spaceship-prompt
 
 # Check if config file for Neovim exists
