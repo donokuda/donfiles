@@ -151,3 +151,6 @@ nnoremap <C-t><C-n> :tabnext<CR>
 nnoremap <C-t><C-p> :tabprevious<CR>
 nnoremap <C-t><C-t> :tabnew<CR>
 nnoremap <C-t><C-w> :tabclose<CR>
+
+" Remove all trailing whitespace
+nnoremap <leader>ws :%s/\s\+$//e<cr>
