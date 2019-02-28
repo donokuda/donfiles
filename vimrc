@@ -143,8 +143,8 @@ set updatetime=100
 set spelllang=en
 
 " Buffer Controls
-nnoremap <C-t><C-n> :bnext<CR>
-nnoremap <C-t><C-p> :bprevious<CR>
+nnoremap <C-b><C-n> :bnext<CR>
+nnoremap <C-b><C-p> :bprevious<CR>
 
 " Tab Controls
 nnoremap <C-t><C-n> :tabnext<CR>
