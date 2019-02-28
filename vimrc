@@ -142,8 +142,12 @@ set updatetime=100
 " Set spell check language to english
 set spelllang=en
 
+" Buffer Controls
+nnoremap <C-t><C-n> :bnext<CR>
+nnoremap <C-t><C-p> :bprevious<CR>
+
 " Tab Controls
-nnoremap <C-a><C-n> :tabnext<CR>
-nnoremap <C-a><C-p> :tabprevious<CR>
-nnoremap <C-a><C-t> :tabnew<CR>
-nnoremap <C-a><C-w> :tabclose<CR>
+nnoremap <C-t><C-n> :tabnext<CR>
+nnoremap <C-t><C-p> :tabprevious<CR>
+nnoremap <C-t><C-t> :tabnew<CR>
+nnoremap <C-t><C-w> :tabclose<CR>
