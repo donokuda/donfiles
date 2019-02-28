@@ -142,3 +142,9 @@ set updatetime=100
 "Spell check
 set spelllang=en
 au! BufNewFile,BufRead *.md,*.txt set spell
+
+" Tab Controls
+nnoremap <C-a><C-n> :tabnext<CR>
+nnoremap <C-a><C-p> :tabprevious<CR>
+nnoremap <C-a><C-t> :tabnew<CR>
+nnoremap <C-a><C-w> :tabclose<CR>
