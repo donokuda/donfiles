@@ -139,9 +139,8 @@ nnoremap <C-n> :NERDTreeToggle<CR>
 " Faster update time (for vim git gutter)
 set updatetime=100
 
-"Spell check
+" Set spell check language to english
 set spelllang=en
-au! BufNewFile,BufRead *.md,*.txt set spell
 
 " Tab Controls
 nnoremap <C-a><C-n> :tabnext<CR>
