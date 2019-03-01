@@ -156,3 +156,7 @@ nnoremap <C-t><C-w> :tabclose<CR>
 
 " Remove all trailing whitespace
 nnoremap <leader>ws :%s/\s\+$//e<cr>
+
+" Change working directory to parent dir of current file
+"   https://vim.fandom.com/wiki/Set_working_directory_to_the_current_file
+nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>
