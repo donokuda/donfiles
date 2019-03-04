@@ -111,6 +111,9 @@ au! BufNewFile,BufRead *.emblem set syn=slim
 command W w
 command Q q
 
+" map Bd to bd because I type as if I'm in a rush
+command Bd bd
+
 " Trailing whitespace
 highlight TrailingWhitespace ctermbg=red guibg=red
 autocmd WinEnter * match TrailingWhitespace /\s\+$/
