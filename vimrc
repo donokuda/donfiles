@@ -145,7 +145,7 @@ set updatetime=100
 " Set spell check language to english
 set spelllang=en
 " Toggle spell check
-nnoremap <leader>s :setlocal spell!<CR>
+nnoremap <leader>ss :setlocal spell!<CR>
 
 " Buffer Controls
 nnoremap <C-b><C-n> :bnext<CR>
