@@ -33,3 +33,5 @@ export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 # For Go
 export GOPATH=$HOME/code
 export PATH=$PATH:$GOPATH/bin
+
+alias cwd='pwd | pbcopy'
