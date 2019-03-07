@@ -35,3 +35,4 @@ export GOPATH=$HOME/code
 export PATH=$PATH:$GOPATH/bin
 
 alias cwd='pwd | pbcopy'
+alias gti=git
