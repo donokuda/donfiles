@@ -41,13 +41,14 @@ endif
 " Add plugs here
 " ----------------------------
 Plug 'sickill/vim-monokai' " Colorscheme
-Plug 'ctrlpvim/ctrlp.vim' " Easy file browsing via Ctrl-P
 Plug 'scrooloose/nerdtree' " Atom/Sublime-like file tree
 Plug 'Xuyuanp/nerdtree-git-plugin' " git status markers for NERDTree
 Plug 'airblade/vim-gitgutter' " git status markers in gutter
 Plug 'HerringtonDarkholme/yats.vim' " Yet another TypeScript Syntax Highlighting
 Plug 'tpope/vim-fugitive' " Git intergration
 Plug 'vim-airline/vim-airline' " v fancy status bar
+Plug '/usr/local/opt/fzf' " Fuzzy find
+Plug 'junegunn/fzf.vim' " Fuzzy find but for vim, ya know?
 
 "
 " Async completion for NeoVim via deoplete
@@ -163,3 +164,6 @@ nnoremap <leader>ws :%s/\s\+$//e<cr>
 " Change working directory to parent dir of current file
 "   https://vim.fandom.com/wiki/Set_working_directory_to_the_current_file
 nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>
+
+" Use fzf instead but make it feel like CtrlP
+nnoremap <C-p> :Files<Cr>
