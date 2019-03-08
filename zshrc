@@ -36,3 +36,7 @@ export PATH=$PATH:$GOPATH/bin
 
 alias cwd='pwd | pbcopy'
 alias gti=git
+
+# tabtab source for electron-forge package
+# uninstall by removing these lines or running `tabtab uninstall electron-forge`
+[[ -f /Users/donokuda/.asdf/installs/nodejs/11.6.0/.npm/lib/node_modules/electron-forge/node_modules/tabtab/.completions/electron-forge.zsh ]] && . /Users/donokuda/.asdf/installs/nodejs/11.6.0/.npm/lib/node_modules/electron-forge/node_modules/tabtab/.completions/electron-forge.zsh
