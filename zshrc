@@ -10,6 +10,12 @@ export PATH="$HOME/.nodenv/shims:$PATH"
 ASDFSH="$HOME/.asdf/asdf.sh"
 if [[ -e $ASDFSH ]]; then
   source $ASDFSH
+
+  # asdf install stuff goes here or else terminal will hang
+  #
+  # tabtab source for electron-forge package
+  # uninstall by removing these lines or running `tabtab uninstall electron-forge`
+  [[ -f /Users/donokuda/.asdf/installs/nodejs/11.6.0/.npm/lib/node_modules/electron-forge/node_modules/tabtab/.completions/electron-forge.zsh ]] && . /Users/donokuda/.asdf/installs/nodejs/11.6.0/.npm/lib/node_modules/electron-forge/node_modules/tabtab/.completions/electron-forge.zsh
 else
   echo "Not found: $ASDFSH"
 fi
@@ -36,7 +42,3 @@ export PATH=$PATH:$GOPATH/bin
 
 alias cwd='pwd | pbcopy'
 alias gti=git
-
-# tabtab source for electron-forge package
-# uninstall by removing these lines or running `tabtab uninstall electron-forge`
-[[ -f /Users/donokuda/.asdf/installs/nodejs/11.6.0/.npm/lib/node_modules/electron-forge/node_modules/tabtab/.completions/electron-forge.zsh ]] && . /Users/donokuda/.asdf/installs/nodejs/11.6.0/.npm/lib/node_modules/electron-forge/node_modules/tabtab/.completions/electron-forge.zsh
