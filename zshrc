@@ -42,3 +42,6 @@ export PATH=$PATH:$GOPATH/bin
 
 alias cwd='pwd | pbcopy'
 alias gti=git
+
+# Have fzf use ripgrep by default
+export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
