@@ -167,3 +167,5 @@ nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>
 
 " Use fzf instead but make it feel like CtrlP
 nnoremap <C-p> :Files<Cr>
+" Use Ripgrep to make it REALLY FAST
+set -gx FZF_DEFAULT_COMMAND  'rg --files --no-ignore-vcs --hidden'
