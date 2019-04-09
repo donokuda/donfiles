@@ -42,6 +42,7 @@ export PATH=$PATH:$GOPATH/bin
 
 alias cwd='pwd | pbcopy && echo "  Copied '$PWD' to clipboard"'
 alias gti=git
+alias cr=crystal
 
 # Have fzf use ripgrep by default
 export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
