@@ -50,6 +50,7 @@ Plug 'vim-airline/vim-airline' " v fancy status bar
 Plug '/usr/local/opt/fzf' " Fuzzy find
 Plug 'junegunn/fzf.vim' " Fuzzy find but for vim, ya know?
 Plug 'rhysd/vim-crystal' " Vim filetype and tools support for Crystal language
+Plug 'mxw/vim-jsx' " React JSX syntax highlighting and indenting for vim
 
 "
 " Async completion for NeoVim via deoplete
