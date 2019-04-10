@@ -46,3 +46,7 @@ alias cr=crystal
 
 # Have fzf use ripgrep by default
 export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
+
+# Update macOS over the commandline
+alias listupdates='softwareupdate -l'
+alias installupdates='softwareupdate -i -a'
