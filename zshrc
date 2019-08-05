@@ -1,5 +1,8 @@
 export PATH="$HOME/.bin:$PATH"
 
+# Haskell Stack installs things here!!!
+export PATH="$HOME/.local/bin:$PATH"
+
 # recommended by brew doctor
 export PATH="/usr/local/bin:$PATH"
 
