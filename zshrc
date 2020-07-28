@@ -23,6 +23,12 @@ else
    # echo "Skipping .asdf stuff since $ASDFSH isn't found"
 fi
 
+# Fix oh-my-zsh not finding itself:
+#   See https://github.com/getantibody/antibody/issues/261#issuecomment-433416899
+ANTIBODY_HOME="$(antibody home)"
+export ZSH="$ANTIBODY_HOME"/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh
+DISABLE_AUTO_UPDATE="true"
+
 # zsh plugins (via antibody)
 source <(antibody init)
 
