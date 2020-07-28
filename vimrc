@@ -40,7 +40,6 @@ endif
 " ============================
 " Add plugs here
 " ----------------------------
-Plug 'sickill/vim-monokai' " Colorscheme
 Plug 'scrooloose/nerdtree' " Atom/Sublime-like file tree
 Plug 'Xuyuanp/nerdtree-git-plugin' " git status markers for NERDTree
 Plug 'airblade/vim-gitgutter' " git status markers in gutter
@@ -51,6 +50,7 @@ Plug '/usr/local/opt/fzf' " Fuzzy find
 Plug 'junegunn/fzf.vim' " Fuzzy find but for vim, ya know?
 Plug 'rhysd/vim-crystal' " Vim filetype and tools support for Crystal language
 Plug 'mxw/vim-jsx' " React JSX syntax highlighting and indenting for vim
+Plug 'morhetz/gruvbox' " Gruvbox color theme https://github.com/morhetz/gruvbox
 
 "
 " Async completion for NeoVim via deoplete
@@ -81,7 +81,7 @@ let g:airline#extensions#tabline#enabled = 1 " Enable status bar
 
 " Colorscheme
 syntax enable
-colorscheme monokai
+autocmd vimenter * colorscheme gruvbox
 
 " turn on search highlighting
 set hlsearch
