@@ -50,8 +50,12 @@ Plug '/usr/local/opt/fzf' " Fuzzy find
 Plug 'junegunn/fzf.vim' " Fuzzy find but for vim, ya know?
 Plug 'rhysd/vim-crystal' " Vim filetype and tools support for Crystal language
 Plug 'mxw/vim-jsx' " React JSX syntax highlighting and indenting for vim
-Plug 'morhetz/gruvbox' " Gruvbox color theme https://github.com/morhetz/gruvbox
-Plug 'flrnd/candid.vim' " Candy colorscheme
+Plug 'morhetz/gruvbox' " colorscheme
+Plug 'flrnd/candid.vim' " colorscheme (Doesn't work)
+Plug 'bluz71/vim-nightfly-guicolors' " colorscheme
+Plug 'arzg/vim-colors-xcode' " colorscheme
+Plug 'liuchengxu/space-vim-theme' " colorscheme
+Plug 'srcery-colors/srcery-vim' " colorscheme
 
 "
 " Async completion for NeoVim via deoplete
@@ -80,23 +84,15 @@ let g:airline#extensions#tabline#enabled = 1 " Enable status bar
 " |    Customize here!    |
 " +-----------------------+
 
-" Colorscheme
-syntax enable
-autocmd vimenter * colorscheme gruvbox
-
-""" This is me trying to get the cadid colorscheme to work (and failing)
-""
-""" set termguicolors
-""" set background=dark
-""" syntax on
-""" colorscheme candid
+" Enable the colorscheme
+set termguicolors
+set background=dark
+syntax on
+autocmd vimenter * colorscheme srcery
 
 " turn on search highlighting
 set hlsearch
 syntax on
-
-" set terminal colors to 256
-set t_Co=256
 
 " turn on line numbers
 set number
