@@ -1,0 +1,35 @@
+[user]
+	name = Don Okuda
+	email = don.okuda@gmail.com
+[github]
+	user = donokuda
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[mergetool "unityyamlmerge"]
+    trustExitCode = false
+    cmd = '/Applications/Unity/Unity.app/Contents/Tools/UnityYAMLMerge' merge -p "$BASE" "$REMOTE" "$LOCAL" "$MERGED"
+[core]
+	excludesfile = /Users/donokuda/.gitignore_global
+	editor = nvim
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustexitcode = true
+[merge]
+	tool = meld
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[difftool]
+	prompt = false
+[mergetool]
+	prompt = false
+[diff]
+	tool = Kaleidoscope
+[mergetool "p4mergetool"]
+	cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge \"\\\"$PWD/$BASE\\\"\" \"\\\"$PWD/$REMOTE\\\"\" \"\\\"$PWD/$LOCAL\\\"\" \"\\\"$PWD/$MERGED\\\"\"
