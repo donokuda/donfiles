@@ -42,7 +42,6 @@ if [[ ! -e $NVIMRC ]]; then
   echo "Cannot find a neovim config file. You're gonna have a bad time :("
   echo "  https://neovim.io/doc/user/nvim.html#nvim-from-vim"
 fi
-
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 
 # For Go
@@ -59,3 +58,6 @@ export FZF_DEFAULT_COMMAND='rg --files --no-ignore-vcs --hidden'
 # Update macOS over the commandline
 alias listupdates='softwareupdate -l'
 alias installupdates='softwareupdate -i -a'
+
+# Set default editor to NeoVim
+export EDITOR=nvim
