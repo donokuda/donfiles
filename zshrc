@@ -61,3 +61,6 @@ alias installupdates='softwareupdate -i -a'
 
 # Set default editor to NeoVim
 export EDITOR=nvim
+
+# Set up 'magnificent app which corrects your previous console command.' https://github.com/nvbn/thefuck 
+eval $(thefuck --alias)
